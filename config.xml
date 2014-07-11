@@ -1,6 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.rjfun.jumprope" version="1.0.20140630" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget 
+id="com.rjfun.jumprope" 
+version="1.0.20140630" 
+xmlns="http://www.w3.org/ns/widgets"
+xmlns:gap="http://phonegap.com/ns/1.0"
+>
     <name>JumpRope</name>
+    
     <description>
 Jumping rope is cheap, portable, and burns more calories than you might think, try this mobile app
     </description>
@@ -9,6 +15,8 @@ Jumping rope is cheap, portable, and burns more calories than you might think, t
     </author>
     <content src="index.html" />
     <access origin="*" />
+
+<preference name="permissions" value="none"/>
 
 <gap:plugin name="com.rjfun.cordova.plugin.lowlatencyaudio"/>
 <gap:plugin name="com.rjfun.cordova.plugin.iad"/>
