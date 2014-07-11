@@ -1,0 +1,211 @@
+@font-face {
+  font-family: 'Joti One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Joti One'), local('JotiOne-Regular'), url(lib/jotione.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Combo';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Combo'), local('Combo-Regular'), url(lib/combov1.woff) format('woff');
+}
+
+* {
+    -webkit-touch-callout: none;
+    -webkit-text-size-adjust: none;
+}
+div, table, td, p, span, button, img {
+	-webkit-user-select: none;
+}
+*::selection {
+    background:transparent;
+}
+
+*::-moz-selection {
+    background:transparent;
+}
+
+*::-webkit-selection {
+    background:transparent;
+}
+*::-webkit-scrollbar { 
+    display: none; 
+}
+
+html, body, div.page, table {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	font-family: serif, Arial;
+}
+
+html, body, div, canvas {
+	margin: 0;
+	padding: 0;
+}
+
+.m {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.l {
+	text-align: left;
+}
+
+.r {
+	text-align: right;
+}
+
+.t {
+	vertical-align: top;
+}
+
+.b {
+	vertical-align: bottom;
+}
+
+.visible {
+	display: block;
+}
+
+.invisible {
+	display: none;
+}
+
+.round {
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.shadow {
+	-webkit-box-shadow:5px 5px 10px black;
+	-moz-box-shadow:5px 5px 10px black;	
+}
+
+.clickable {
+	cursor:pointer;
+}
+
+.full {
+	width:100%;
+	height:100%;
+	margin: 0;
+	padding: 0;
+}
+
+.draw {
+	background-color: #dddddd;
+	border:1px solid black;	
+}
+
+.data {
+	font-family: verdana, serif, Arial;
+	font-size:24px;
+	color: green;
+}
+
+.people {
+	font-family: verdana, serif, Arial;
+	font-size:16px;
+}
+
+div.page {
+	background-color: white;
+    color: #333333;
+}
+
+.datacell {
+	color: black;
+	background-color: #dddddd;
+	border: 1px solid silver;
+	border-bottom: 5px solid silver;
+}
+
+.selectcell {
+    color: black;
+	text-align: right;
+	cursor: pointer;
+	background-color: silver;
+	border: 1px solid gray;
+	border-bottom: 5px solid gray;
+}
+
+.selected {
+    color: black;
+	background-color: #adf76f;
+	border: 1px solid #4e7d0e;
+	border-bottom: 5px solid #4e7d0e;
+}
+
+.unit {
+	font-size: 14px;
+}
+
+.btn {
+	cursor:pointer;
+	font-size: 20px;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3); 
+
+	-moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+	
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);  
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);  
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);	
+
+	color: #e8f0de;  
+    border: solid 1px #538312;  
+    background: #64991e;  
+    background: -webkit-gradient(linear, left top, left bottom, from(#7db72f), to(#4e7d0e));  
+    background: -moz-linear-gradient(top,  #7db72f,  #4e7d0e);  
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#7db72f', endColorstr='#4e7d0e');  
+}
+
+
+.topbtn {
+	height: 48px;
+}
+
+.tips {
+	font-size: 20px;
+	color: green;
+}
+
+.title2 {
+	font-family: 'Joti One', serif, Arial;
+	font-size: 20px;
+}
+
+.title {
+	font-family: 'Joti One', serif, Arial;
+	font-size: 28px;
+	font-weight: bold;
+	text-shadow: 1px 1px 2px gray;
+}
+
+img.appname {
+	width: 240;
+}
+
+img.splash {
+	width: 240;
+}
+
+.highlight {
+	font-size: 24px;
+	color: green;
+}
+
+img.navicon {
+	display: inline-block;
+	width:32px;
+	height:32px;
+}
+
