@@ -62,6 +62,6 @@ Jumping rope is cheap, portable, and burns more calories than you might think, t
     <gap:splash src="res/screen/ios/screen-iphone-portrait-2x.png"      gap:platform="ios"     width="640" height="960" />
     <gap:splash src="res/screen/ios/screen-iphone-portrait-568h-2x.png" gap:platform="ios"     width="640" height="1136" />
     <gap:splash src="res/screen/ios/screen-ipad-portrait.png"           gap:platform="ios"     width="768" height="1024" />
-    <gap:splash src="res/screen/windows-phone/screen-portrait.jpg"      gap:platform="winphone" />
+    <gap:splash src="res/screen/winphone/screen-portrait.jpg"      gap:platform="winphone" />
     
 </widget>
