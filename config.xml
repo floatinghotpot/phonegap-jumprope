@@ -19,7 +19,7 @@ Jumping rope is cheap, portable, and burns more calories than you might think, t
     <preference name="permissions" value="none"/>
 
     <gap:plugin name="com.rjfun.cordova.plugin.lowlatencyaudio"/>
-    <gap:plugin name="com.rjfun.cordova.plugin.iad"/>
+    <gap:plugin name="com.google.cordova.admob"/>
     <gap:plugin name="nl.x-services.plugins.socialsharing"/>
     <gap:plugin name="org.apache.cordova.device-motion"/>
     <gap:plugin name="org.apache.cordova.dialogs"/>
