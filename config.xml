@@ -18,12 +18,12 @@ Jumping rope is cheap, portable, and burns more calories than you might think, t
 
     <preference name="permissions" value="none"/>
 
-    <gap:plugin name="com.rjfun.cordova.plugin.lowlatencyaudio"/>
-    <gap:plugin name="com.google.cordova.admob"/>
-    <gap:plugin name="nl.x-services.plugins.socialsharing"/>
-    <gap:plugin name="org.apache.cordova.device-motion"/>
-    <gap:plugin name="org.apache.cordova.dialogs"/>
-    <gap:plugin name="org.apache.cordova.vibration"/>
+    <gap:plugin name="com.google.cordova.admob" source="plugins.cordova.io" />
+    <gap:plugin name="com.rjfun.cordova.plugin.lowlatencyaudio" source="plugins.cordova.io" />
+    <gap:plugin name="nl.x-services.plugins.socialsharing" source="plugins.cordova.io" />
+    <gap:plugin name="org.apache.cordova.device-motion" source="plugins.cordova.io" />
+    <gap:plugin name="org.apache.cordova.dialogs" source="plugins.cordova.io" />
+    <gap:plugin name="org.apache.cordova.vibration" source="plugins.cordova.io" />
 
     <!-- Customize your app and platform with the preference element. -->
     <preference name="orientation"                value="portrait" />        <!-- all: default means both landscape and portrait are enabled -->
