@@ -21,7 +21,6 @@ hotjs = hotjs || {};
 				autoShow:true
 			});
 		}
-		
 	}
 
 	function showAd( show ) {
